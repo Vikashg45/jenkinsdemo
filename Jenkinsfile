@@ -9,7 +9,7 @@ node {
     stage('Clone Repo'){
         echo 'cloning the Repo'
         git(
-            branch: 'master',
+            branch: 'main',
             url: 'https://github.com/Vikashg45/jenkinsdemo.git'
         )
     }
